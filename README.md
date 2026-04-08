@@ -1,7 +1,7 @@
 # SDN-Traffic-Monitoring-and-Statistics-Collector
 
 ## Problem Statement
-The objective of this project is to implement a Software-Defined Networking (SDN) solution using Mininet and the POX OpenFlow controller. The project satisfies the "Orange Problem" requirements by demonstrating controller-switch interaction, custom flow rule design (match-action logic), and network behavior observation. 
+The objective of this project is to implement a Software-Defined Networking (SDN) solution using Mininet and the POX OpenFlow controller. The project satisfies the requirements by demonstrating controller-switch interaction, custom flow rule design (match-action logic), and network behavior observation. 
 
 Specifically, the implementation features:
 1. **Access Control (Firewall):** A Layer 2 Learning Switch paired with an explicit rule to drop traffic between specific hosts (Allowed vs. Blocked).
