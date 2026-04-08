@@ -33,12 +33,12 @@ The controller intercepts `PacketIn` events. Traffic between `10.0.0.1` (h1) and
 * **Pingall Results (Showing h1 to h4 failure):**
   ![Pingall Output](screenshots/pingall_results.png)
 * **Controller Logs (Showing blocked traffic event):**
-  ![POX Logs](screenshots/pox_blocked_logs.png)
+  ![POX Logs](screenshots/pox_blocked_log.png)
 
 ### Scenario 2: Normal vs. Failure (Link Resilience)
 Simulating a physical cable disconnection between Switch 1 and Switch 2 (`link s1 s2 down`).
 * **Link Down (Destination Host Unreachable):**
-  ![Failure State](screenshots/link_failure.jpg)
+  ![Failure State](screenshots/link_failure.png)
 * **Link Up (Traffic Restored):**
   ![Recovery State](screenshots/link_recovery.png)
 
